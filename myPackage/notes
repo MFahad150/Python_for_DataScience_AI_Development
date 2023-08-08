@@ -1,0 +1,37 @@
+**************Verify the package*****************
+
+
+On the window to the right, click on the Terminal menu and select New Terminal option, as shown in the image below 
+
+You will see a terminal open up on the bottom of the screen like the one in the image below.
+
+At the terminal type python3 to invoke python interpreter.
+
+Once the python interpreter is loaded.
+
+At the python prompt type import mymath
+
+If the above command runs without errors, it is an indication that the mymath package is successfully loaded.
+
+At the python prompt type mymath.basic.add(3,4)
+
+You should see an output 7 on the screen.
+
+At the python prompt type mymath.stats.mean([3,4,5])
+
+You should see an output 4.0 on the screen.
+
+Type exit() to quit python interpreter.
+
+
+*************Create a new module named geometry and add to the mymath package.*************
+
+Create a module name geometry
+
+Add a function named area_of_rectangle that takes length and breadth as input and returns the area of a rectangle.
+
+Add a function named area_of_circle that takes radius as input and returns the area of a circle.
+
+Modify the __init__.py to include this module.
+
+Import and test the function area_of_circle from python terminal.
